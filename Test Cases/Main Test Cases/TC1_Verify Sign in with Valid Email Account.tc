@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to Sign in with valid Email and Password</description>
+   <name>TC1_Verify Sign in with Valid Email Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3138d97-f6e2-472b-a3c9-e34f706ef8a6</testCaseGuid>
+</TestCaseEntity>

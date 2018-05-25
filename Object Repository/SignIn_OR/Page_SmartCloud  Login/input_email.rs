@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_email</name>
+   <tag></tag>
+   <elementGuidId>68d878e9-da3c-4c04-8eaf-373bd9cee16b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-textfield__input firebaseui-input firebaseui-id-email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;firebaseui-container&quot;)/div[@class=&quot;mdl-card mdl-shadow--2dp firebaseui-container firebaseui-id-page-sign-in&quot;]/form[1]/div[@class=&quot;firebaseui-card-content&quot;]/div[@class=&quot;firebaseui-relative-wrapper&quot;]/div[@class=&quot;firebaseui-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-upgraded is-focused is-invalid is-dirty&quot;]/input[@class=&quot;mdl-textfield__input firebaseui-input firebaseui-id-email&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

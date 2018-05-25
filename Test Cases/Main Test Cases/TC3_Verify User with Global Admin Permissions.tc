@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to Sign in with valid Email and Password</description>
+   <name>TC3_Verify User with Global Admin Permissions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a00ddfc2-2795-43a8-a9b8-d70a219c32f9</testCaseGuid>
+</TestCaseEntity>

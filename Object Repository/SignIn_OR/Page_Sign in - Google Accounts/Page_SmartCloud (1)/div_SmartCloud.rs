@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SmartCloud</name>
+   <tag></tag>
+   <elementGuidId>432bf6f6-3a3e-4f1b-b3e2-8eeea86e088b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logo-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SmartCloud</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;top_nav navbar-fixed-top&quot;]/div[@class=&quot;nav_menu&quot;]/nav[1]/div[1]/div[@class=&quot;navbar-brand navbar-brand-centered smartparking-nav-brand&quot;]/a[@class=&quot;smartparking-logo&quot;]/div[@class=&quot;logo-wrapper&quot;]/div[@class=&quot;logo-text&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

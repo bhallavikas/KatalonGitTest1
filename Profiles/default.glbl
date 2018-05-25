@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Staging Environment URL</description>
+      <initValue>'https://neptune-staging.smartcloud.smartsys.io'</initValue>
+      <name>url_staging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Development Environment URL</description>
+      <initValue>'https://neptune-dev.smartcloud.smartsys.io'</initValue>
+      <name>url_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Production Environment URL</description>
+      <initValue>'https://dashboard.smartcloud.smartsys.io'</initValue>
+      <name>url_prod</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Email - Staging Environment</description>
+      <initValue>'vikas.bhalla@smartparking.com'</initValue>
+      <name>stag_uname_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>E Password - Staging Environment</description>
+      <initValue>'Prod1234'</initValue>
+      <name>stag_pass_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Google - Staging Environment</description>
+      <initValue>'vikasnzind@gmail.com'</initValue>
+      <name>stag_uname_google</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>G Password- Staging Environment</description>
+      <initValue>'Chicken65'</initValue>
+      <name>stag_pass_google</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Email Limited Accress - Staging</description>
+      <initValue>'vikasb.smartparking@gmail.com'</initValue>
+      <name>stag_uname_limit_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>E Pass Limited Accress - Staging</description>
+      <initValue>'test1234'</initValue>
+      <name>stag_uname_limit_pass</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

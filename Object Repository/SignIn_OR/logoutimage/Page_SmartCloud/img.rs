@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>d3d1a5ce-261a-4b25-8c0c-1eca979f7228</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://firebasestorage.googleapis.com/v0/b/sc-neptune-staging-1803.appspot.com/o/smartCloudConsole%2Fuserprofiles%2F77wKOspR14avkyu6qXJndEW4q7z2%2F77wKOspR14avkyu6qXJndEW4q7z2.png?alt=media&amp;token=b1b205e6-59de-47f6-adad-ab80c47fa36a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;top_nav navbar-fixed-top&quot;]/div[@class=&quot;nav_menu&quot;]/nav[1]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[@class=&quot;open&quot;]/a[@class=&quot;user-profile dropdown-toggle&quot;]/div[@class=&quot;user-avatar__inner&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="169" tests="2" failures="0" errors="1">
+   <testsuite name="Test Suite 1" tests="2" failures="0" errors="1" time="169" timestamp="2018-05-25 13:04:10" hostname="Vikas Bhalla - VikasBhalla-PC" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon Automation Projects\\System3Dashboard\\system3Dashboard\\Reports\\Test Suite 1\\20180525_130408"/>
+         <property name="logFiles" value="F:\\Katalon Automation Projects\\System3Dashboard\\system3Dashboard\\Reports\\Test Suite 1\\20180525_130408\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Vikas Bhalla - VikasBhalla-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.37.201.227"/>
+         <property name="sessionId" value="efb3000626288c7a441f18885c16cd3a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account " classname="Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account " status="ERROR">
+         <error type="ERROR" message="Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2018-05-25 13:04:11 - [TEST_CASE][ERROR] - Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account : Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2018-05-25 13:04:11 - [TEST_CASE][ERROR] - Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account : Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC3_Verify User with Global Admin Permissions" classname="Test Cases/Main Test Cases/TC3_Verify User with Global Admin Permissions" status="PASSED">
+         <system-out><![CDATA[2018-05-25 13:04:11 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC3_Verify User with Global Admin Permissions: Test Cases/Main Test Cases/TC3_Verify User with Global Admin Permissions
+
+2018-05-25 13:04:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-25 13:04:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-25 13:04:16 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-05-25 13:04:17 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-05-25 13:04:17 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-25 13:04:18 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-25 13:04:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://neptune-staging.smartcloud.smartsys.io' successfully
+
+2018-05-25 13:04:21 - [MESSAGE][PASSED] - Navigate to 'https://neptune-staging.smartcloud.smartsys.io' successfully
+
+2018-05-25 13:04:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-25 13:04:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-25 13:04:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:25 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:04:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:04:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:26 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:04:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/span_Sign in with email' is clicked on
+
+2018-05-25 13:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/span_Sign in with email' is clicked on
+
+2018-05-25 13:04:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/div_Email' is present
+
+2018-05-25 13:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/div_Email' is present
+
+2018-05-25 13:04:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/h1_Sign in with email' is present
+
+2018-05-25 13:04:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:30 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/h1_Sign in with email' is present
+
+2018-05-25 13:04:30 - [TEST_STEP][PASSED] - setText: Text 'vikas.bhalla@smartparking.com' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_email'
+
+2018-05-25 13:04:34 - [MESSAGE][PASSED] - Text 'vikas.bhalla@smartparking.com' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_email'
+
+2018-05-25 13:04:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is present
+
+2018-05-25 13:04:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:35 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is present
+
+2018-05-25 13:04:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Cancel' is present
+
+2018-05-25 13:04:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Cancel' is present
+
+2018-05-25 13:04:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is clicked on
+
+2018-05-25 13:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is clicked on
+
+2018-05-25 13:04:38 - [TEST_STEP][PASSED] - setText: Text 'Prod1234' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_password'
+
+2018-05-25 13:04:44 - [MESSAGE][PASSED] - Text 'Prod1234' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_password'
+
+2018-05-25 13:04:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is present
+
+2018-05-25 13:04:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:45 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is present
+
+2018-05-25 13:04:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is clicked on
+
+2018-05-25 13:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is clicked on
+
+2018-05-25 13:04:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud/h3_SmartPark Dashboard' is present
+
+2018-05-25 13:04:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud/h3_SmartPark Dashboard' is present
+
+2018-05-25 13:04:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud/div_SmartCloud' is present
+
+2018-05-25 13:04:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:55 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud/div_SmartCloud' is present
+
+2018-05-25 13:04:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/img' is clicked on
+
+2018-05-25 13:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/img' is clicked on
+
+2018-05-25 13:04:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboardstim' is present
+
+2018-05-25 13:04:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboardstim' is present
+
+2018-05-25 13:04:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is present
+
+2018-05-25 13:04:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:04:59 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is present
+
+2018-05-25 13:04:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is clicked on
+
+2018-05-25 13:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is clicked on
+
+2018-05-25 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_add_to_queueNew Dashboard' is present
+
+2018-05-25 13:05:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_add_to_queueNew Dashboard' is present
+
+2018-05-25 13:05:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is present
+
+2018-05-25 13:05:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:03 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is present
+
+2018-05-25 13:05:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is clicked on
+
+2018-05-25 13:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is clicked on
+
+2018-05-25 13:05:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmart Park Da' is present
+
+2018-05-25 13:05:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmart Park Da' is present
+
+2018-05-25 13:05:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Sector' is present
+
+2018-05-25 13:05:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Sector' is present
+
+2018-05-25 13:05:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Lots' is present
+
+2018-05-25 13:05:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:08 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Lots' is present
+
+2018-05-25 13:05:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Bay Ty' is present
+
+2018-05-25 13:05:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Bay Ty' is present
+
+2018-05-25 13:05:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is present
+
+2018-05-25 13:05:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is present
+
+2018-05-25 13:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is clicked on
+
+2018-05-25 13:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is clicked on
+
+2018-05-25 13:05:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_library_booksDefine Report' is present
+
+2018-05-25 13:05:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_library_booksDefine Report' is present
+
+2018-05-25 13:05:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone' is clicked on
+
+2018-05-25 13:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone' is clicked on
+
+2018-05-25 13:05:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone' is present
+
+2018-05-25 13:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone' is present
+
+2018-05-25 13:05:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone Dashbo' is present
+
+2018-05-25 13:05:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone Dashbo' is present
+
+2018-05-25 13:05:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_pin_dropMap Devices' is present
+
+2018-05-25 13:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_pin_dropMap Devices' is present
+
+2018-05-25 13:05:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_storageGroup Devices' is present
+
+2018-05-25 13:05:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_storageGroup Devices' is present
+
+2018-05-25 13:05:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_storageRF Survey' is present
+
+2018-05-25 13:05:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:21 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_storageRF Survey' is present
+
+2018-05-25 13:05:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_moduleSmartZone - Sen' is present
+
+2018-05-25 13:05:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_moduleSmartZone - Sen' is present
+
+2018-05-25 13:05:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_Settings' is clicked on
+
+2018-05-25 13:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_Settings' is clicked on
+
+2018-05-25 13:05:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_settingsSettings' is present
+
+2018-05-25 13:05:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:25 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_settingsSettings' is present
+
+2018-05-25 13:05:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_queueDefine Site' is present
+
+2018-05-25 13:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:26 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_queueDefine Site' is present
+
+2018-05-25 13:05:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_editEdit Site' is present
+
+2018-05-25 13:05:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_editEdit Site' is present
+
+2018-05-25 13:05:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_arrayGroups Editor' is present
+
+2018-05-25 13:05:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:28 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_arrayGroups Editor' is present
+
+2018-05-25 13:05:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_question_answereAdd Url Ti' is present
+
+2018-05-25 13:05:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:29 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_question_answereAdd Url Ti' is present
+
+2018-05-25 13:05:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_personUsers' is present
+
+2018-05-25 13:05:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:30 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_personUsers' is present
+
+2018-05-25 13:05:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltAdd External Too' is present
+
+2018-05-25 13:05:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltAdd External Too' is present
+
+2018-05-25 13:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div' is clicked on
+
+2018-05-25 13:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div' is clicked on
+
+2018-05-25 13:05:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud/img' is clicked on
+
+2018-05-25 13:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud/img' is clicked on
+
+2018-05-25 13:05:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud/a_Logout' is clicked on
+
+2018-05-25 13:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud/a_Logout' is clicked on
+
+2018-05-25 13:05:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:41 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:05:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:05:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:05:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-25 13:05:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC4_Verify User with Limited Access Permissions" classname="Test Cases/Main Test Cases/TC4_Verify User with Limited Access Permissions" status="PASSED">
+         <system-out><![CDATA[2018-05-25 13:05:44 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC4_Verify User with Limited Access Permissions: Test Cases/Main Test Cases/TC4_Verify User with Limited Access Permissions
+
+2018-05-25 13:05:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-25 13:05:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-25 13:05:48 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-05-25 13:05:49 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-05-25 13:05:49 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-25 13:05:50 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-25 13:05:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://neptune-staging.smartcloud.smartsys.io' successfully
+
+2018-05-25 13:05:53 - [MESSAGE][PASSED] - Navigate to 'https://neptune-staging.smartcloud.smartsys.io' successfully
+
+2018-05-25 13:05:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-25 13:05:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-25 13:05:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:05:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:05:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:05:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:05:57 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:05:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/span_Sign in with email' is clicked on
+
+2018-05-25 13:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/span_Sign in with email' is clicked on
+
+2018-05-25 13:05:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/div_Email' is present
+
+2018-05-25 13:05:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:00 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/div_Email' is present
+
+2018-05-25 13:06:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/h1_Sign in with email' is present
+
+2018-05-25 13:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/h1_Sign in with email' is present
+
+2018-05-25 13:06:01 - [TEST_STEP][PASSED] - setText: Text 'vikasb.smartparking@gmail.com' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_email'
+
+2018-05-25 13:06:05 - [MESSAGE][PASSED] - Text 'vikasb.smartparking@gmail.com' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_email'
+
+2018-05-25 13:06:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is present
+
+2018-05-25 13:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:06 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is present
+
+2018-05-25 13:06:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Cancel' is present
+
+2018-05-25 13:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:07 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Cancel' is present
+
+2018-05-25 13:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is clicked on
+
+2018-05-25 13:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Next' is clicked on
+
+2018-05-25 13:06:09 - [TEST_STEP][PASSED] - setText: Text 'test1234' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_password'
+
+2018-05-25 13:06:15 - [MESSAGE][PASSED] - Text 'test1234' is set on object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/input_password'
+
+2018-05-25 13:06:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is present
+
+2018-05-25 13:06:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is present
+
+2018-05-25 13:06:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is clicked on
+
+2018-05-25 13:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign In' is clicked on
+
+2018-05-25 13:06:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud/h3_SmartPark Dashboard' is present
+
+2018-05-25 13:06:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:25 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud/h3_SmartPark Dashboard' is present
+
+2018-05-25 13:06:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud/div_SmartCloud' is present
+
+2018-05-25 13:06:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:26 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud/div_SmartCloud' is present
+
+2018-05-25 13:06:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/img' is clicked on
+
+2018-05-25 13:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/img' is clicked on
+
+2018-05-25 13:06:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Limited_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboardstim' is present
+
+2018-05-25 13:06:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Limited_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboardstim' is present
+
+2018-05-25 13:06:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is present
+
+2018-05-25 13:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:30 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is present
+
+2018-05-25 13:06:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is clicked on
+
+2018-05-25 13:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_view_quiltMy Dashboards' is clicked on
+
+2018-05-25 13:06:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_add_to_queueNew Dashboard' is present
+
+2018-05-25 13:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:34 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_add_to_queueNew Dashboard' is present
+
+2018-05-25 13:06:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is present
+
+2018-05-25 13:06:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:35 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is present
+
+2018-05-25 13:06:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is clicked on
+
+2018-05-25 13:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmartPark' is clicked on
+
+2018-05-25 13:06:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmart Park Da' is present
+
+2018-05-25 13:06:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:38 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_time_to_leaveSmart Park Da' is present
+
+2018-05-25 13:06:38 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Sector' located by 'By.xpath: //div[(text() = 'local_parkingDefine Sectors' or . = 'local_parkingDefine Sectors')]' is not present after '30' second(s)
+
+2018-05-25 13:06:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:39 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Sector' located by 'By.xpath: //div[(text() = 'local_parkingDefine Sectors' or . = 'local_parkingDefine Sectors')]' is not present after '30' second(s)
+
+2018-05-25 13:06:39 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Lots' located by 'By.xpath: //div[(text() = 'local_parkingDefine Lots' or . = 'local_parkingDefine Lots')]' is not present after '30' second(s)
+
+2018-05-25 13:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Lots' located by 'By.xpath: //div[(text() = 'local_parkingDefine Lots' or . = 'local_parkingDefine Lots')]' is not present after '30' second(s)
+
+2018-05-25 13:06:40 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Bay Ty' located by 'By.xpath: //div[(text() = 'local_parkingDefine Bay Types' or . = 'local_parkingDefine Bay Types')]' is not present after '30' second(s)
+
+2018-05-25 13:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_local_parkingDefine Bay Ty' located by 'By.xpath: //div[(text() = 'local_parkingDefine Bay Types' or . = 'local_parkingDefine Bay Types')]' is not present after '30' second(s)
+
+2018-05-25 13:06:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is present
+
+2018-05-25 13:06:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:42 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is present
+
+2018-05-25 13:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is clicked on
+
+2018-05-25 13:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_data_usageSmartData' is clicked on
+
+2018-05-25 13:06:44 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone' located by 'By.xpath: //div[(text() = 'device_hubSmartZone' or . = 'device_hubSmartZone')]' is not present after '30' second(s)
+
+2018-05-25 13:06:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_device_hubSmartZone' located by 'By.xpath: //div[(text() = 'device_hubSmartZone' or . = 'device_hubSmartZone')]' is not present after '30' second(s)
+
+2018-05-25 13:06:45 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_settingsSettings' located by 'By.xpath: //div[(text() = 'settingsSettings' or . = 'settingsSettings')]' is not present after '30' second(s)
+
+2018-05-25 13:06:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div_settingsSettings' located by 'By.xpath: //div[(text() = 'settingsSettings' or . = 'settingsSettings')]' is not present after '30' second(s)
+
+2018-05-25 13:06:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div' is clicked on
+
+2018-05-25 13:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Global_Access_OR/Page_SmartCloud/div' is clicked on
+
+2018-05-25 13:06:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Limited_Access_OR/Page_SmartCloud/span_VB' is clicked on
+
+2018-05-25 13:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Limited_Access_OR/Page_SmartCloud/span_VB' is clicked on
+
+2018-05-25 13:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Menu_Limited_Access_OR/Page_SmartCloud/a_Logout' is clicked on
+
+2018-05-25 13:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Limited_Access_OR/Page_SmartCloud/a_Logout' is clicked on
+
+2018-05-25 13:06:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:56 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with emailEmail' is present
+
+2018-05-25 13:06:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:06:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-25 13:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/SignIn_OR/Page_SmartCloud  Login/button_Sign in with GoogleGoog' is present
+
+2018-05-25 13:06:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-25 13:06:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-25 13:04:10 - [TEST_SUITE][ERROR] - Test Suite 1: Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2018-05-25 13:04:10 - [TEST_SUITE][ERROR] - Test Suite 1: Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

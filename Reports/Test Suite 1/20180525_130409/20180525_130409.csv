@@ -1,0 +1,102 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 1,Firefox 60.0,,2018-05-25 13:04:11,2018-05-25 13:06:57,2m - 46.095s,ERROR
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Sign in with Valid Email Account ,Firefox 60.0,Test to Sign in with valid Email and Password,2018-05-25 13:04:11,2018-05-25 13:04:11,0.005s,ERROR
+,,,,,,
+Test Cases/Main Test Cases/TC3_Verify User with Global Admin Permissions,Firefox 60.0,Test to Sign in with valid Email and Password,2018-05-25 13:04:11,2018-05-25 13:05:42,1m - 31.231s,PASSED
+openBrowser,Firefox 60.0,Test to Open Browser,2018-05-25 13:04:11,2018-05-25 13:04:17,5.477s,PASSED
+deleteAllCookies,Firefox 60.0,,2018-05-25 13:04:17,2018-05-25 13:04:18,1.024s,PASSED
+refresh,Firefox 60.0,,2018-05-25 13:04:18,2018-05-25 13:04:19,1.066s,PASSED
+navigateToUrl,Firefox 60.0,,2018-05-25 13:04:19,2018-05-25 13:04:22,3.320s,PASSED
+maximizeWindow,Firefox 60.0,,2018-05-25 13:04:22,2018-05-25 13:04:23,1.093s,PASSED
+verifyElementPresent,Firefox 60.0,Test Sign In With Email Button,2018-05-25 13:04:23,2018-05-25 13:04:25,1.040s,PASSED
+verifyElementPresent,Firefox 60.0,Test Sign In With Gmail Button,2018-05-25 13:04:25,2018-05-25 13:04:26,1.021s,PASSED
+click,Firefox 60.0,Test Login using smart parking email,2018-05-25 13:04:26,2018-05-25 13:04:28,2.325s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:28,2018-05-25 13:04:29,1.014s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:29,2018-05-25 13:04:30,1.012s,PASSED
+setText,Firefox 60.0,,2018-05-25 13:04:30,2018-05-25 13:04:34,4.092s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:34,2018-05-25 13:04:35,1.013s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:35,2018-05-25 13:04:36,1.020s,PASSED
+click,Firefox 60.0,,2018-05-25 13:04:36,2018-05-25 13:04:38,2.235s,PASSED
+setText,Firefox 60.0,,2018-05-25 13:04:38,2018-05-25 13:04:42,4.060s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:42,2018-05-25 13:04:43,1.010s,PASSED
+click,Firefox 60.0,,2018-05-25 13:04:43,2018-05-25 13:04:46,2.237s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:46,2018-05-25 13:04:53,7.038s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:53,2018-05-25 13:04:54,1.011s,PASSED
+click,Firefox 60.0,,2018-05-25 13:04:54,2018-05-25 13:04:56,2.286s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:56,2018-05-25 13:04:57,1.013s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:04:57,2018-05-25 13:04:58,1.013s,PASSED
+click,Firefox 60.0,,2018-05-25 13:04:58,2018-05-25 13:05:00,2.256s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:00,2018-05-25 13:05:01,1.030s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:01,2018-05-25 13:05:02,1.014s,PASSED
+click,Firefox 60.0,,2018-05-25 13:05:02,2018-05-25 13:05:04,2.269s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:04,2018-05-25 13:05:06,1.018s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:06,2018-05-25 13:05:07,1.062s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:07,2018-05-25 13:05:08,1.053s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:08,2018-05-25 13:05:09,1.114s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:09,2018-05-25 13:05:10,1.011s,PASSED
+click,Firefox 60.0,,2018-05-25 13:05:10,2018-05-25 13:05:12,2.289s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:12,2018-05-25 13:05:13,1.012s,PASSED
+click,Firefox 60.0,,2018-05-25 13:05:13,2018-05-25 13:05:15,2.288s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:15,2018-05-25 13:05:16,1.011s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:16,2018-05-25 13:05:17,1.014s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:17,2018-05-25 13:05:18,1.018s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:18,2018-05-25 13:05:19,1.015s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:19,2018-05-25 13:05:20,1.018s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:20,2018-05-25 13:05:21,1.016s,PASSED
+click,Firefox 60.0,,2018-05-25 13:05:21,2018-05-25 13:05:24,2.275s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:24,2018-05-25 13:05:25,1.011s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:25,2018-05-25 13:05:26,1.018s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:26,2018-05-25 13:05:27,1.017s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:27,2018-05-25 13:05:28,1.015s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:28,2018-05-25 13:05:29,1.020s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:29,2018-05-25 13:05:30,1.021s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:30,2018-05-25 13:05:31,1.021s,PASSED
+click,Firefox 60.0,,2018-05-25 13:05:31,2018-05-25 13:05:33,2.383s,PASSED
+click,Firefox 60.0,,2018-05-25 13:05:33,2018-05-25 13:05:35,2.250s,PASSED
+click,Firefox 60.0,,2018-05-25 13:05:35,2018-05-25 13:05:39,3.080s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:39,2018-05-25 13:05:40,1.010s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:40,2018-05-25 13:05:41,1.011s,PASSED
+closeBrowser,Firefox 60.0,,2018-05-25 13:05:41,2018-05-25 13:05:42,1.725s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC4_Verify User with Limited Access Permissions,Firefox 60.0,Test to Sign in with valid Email and Password,2018-05-25 13:05:42,2018-05-25 13:06:57,1m - 14.495s,PASSED
+openBrowser,Firefox 60.0,Test to Open Browser,2018-05-25 13:05:42,2018-05-25 13:05:47,4.234s,PASSED
+deleteAllCookies,Firefox 60.0,,2018-05-25 13:05:47,2018-05-25 13:05:48,1.006s,PASSED
+refresh,Firefox 60.0,,2018-05-25 13:05:48,2018-05-25 13:05:49,1.048s,PASSED
+navigateToUrl,Firefox 60.0,,2018-05-25 13:05:49,2018-05-25 13:05:52,3.158s,PASSED
+maximizeWindow,Firefox 60.0,,2018-05-25 13:05:52,2018-05-25 13:05:53,1.156s,PASSED
+verifyElementPresent,Firefox 60.0,Test Sign In With Email Button,2018-05-25 13:05:53,2018-05-25 13:05:54,1.015s,PASSED
+verifyElementPresent,Firefox 60.0,Test Sign In With Gmail Button,2018-05-25 13:05:54,2018-05-25 13:05:55,1.010s,PASSED
+click,Firefox 60.0,Test Login using smart parking email,2018-05-25 13:05:55,2018-05-25 13:05:57,2.250s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:57,2018-05-25 13:05:58,1.011s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:05:58,2018-05-25 13:05:59,1.010s,PASSED
+setText,Firefox 60.0,,2018-05-25 13:05:59,2018-05-25 13:06:03,4.073s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:03,2018-05-25 13:06:04,1.011s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:04,2018-05-25 13:06:05,1.010s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:05,2018-05-25 13:06:08,2.242s,PASSED
+setText,Firefox 60.0,,2018-05-25 13:06:08,2018-05-25 13:06:13,5.558s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:13,2018-05-25 13:06:14,1.015s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:14,2018-05-25 13:06:16,2.231s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:16,2018-05-25 13:06:23,7.033s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:23,2018-05-25 13:06:25,1.010s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:25,2018-05-25 13:06:27,2.294s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:27,2018-05-25 13:06:28,1.127s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:28,2018-05-25 13:06:29,1.014s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:29,2018-05-25 13:06:31,2.318s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:31,2018-05-25 13:06:32,1.014s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:32,2018-05-25 13:06:33,1.186s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:33,2018-05-25 13:06:36,2.271s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:36,2018-05-25 13:06:37,1.022s,PASSED
+verifyElementNotPresent,Firefox 60.0,,2018-05-25 13:06:37,2018-05-25 13:06:38,1.061s,PASSED
+verifyElementNotPresent,Firefox 60.0,,2018-05-25 13:06:38,2018-05-25 13:06:39,1.021s,PASSED
+verifyElementNotPresent,Firefox 60.0,,2018-05-25 13:06:39,2018-05-25 13:06:40,1.047s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:40,2018-05-25 13:06:41,1.045s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:41,2018-05-25 13:06:43,2.292s,PASSED
+verifyElementNotPresent,Firefox 60.0,,2018-05-25 13:06:43,2018-05-25 13:06:44,1.016s,PASSED
+verifyElementNotPresent,Firefox 60.0,,2018-05-25 13:06:44,2018-05-25 13:06:45,1.013s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:45,2018-05-25 13:06:48,2.552s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:48,2018-05-25 13:06:50,2.255s,PASSED
+click,Firefox 60.0,,2018-05-25 13:06:50,2018-05-25 13:06:53,2.946s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:53,2018-05-25 13:06:54,1.036s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-25 13:06:54,2018-05-25 13:06:55,1.012s,PASSED
+closeBrowser,Firefox 60.0,,2018-05-25 13:06:55,2018-05-25 13:06:57,1.742s,PASSED

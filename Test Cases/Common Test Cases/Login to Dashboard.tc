@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to Sign in with valid Email and Password</description>
+   <name>Login to Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c69b7d5b-cc09-4177-b83a-f8099c327530</testCaseGuid>
+</TestCaseEntity>
