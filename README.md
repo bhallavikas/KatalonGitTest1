@@ -1,1 +1,0 @@
-# KatalonGitTest1
